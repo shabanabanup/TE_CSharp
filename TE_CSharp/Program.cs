@@ -9,7 +9,7 @@ namespace Basic_Concepts
         public static void Main()
         {
 
-            Console.WriteLine("welcome to C-Sharp");
+            Console.WriteLine("welcome to C-Sharp training");
         }
     }
 }
