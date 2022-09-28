@@ -6,34 +6,26 @@ using System.Threading.Tasks;
 
 namespace TE_CSharp
 {
-    /// <summary>
-    /// Enumeration or enum -> constant names -> integral value
-    /// </summary>
+    
     internal class Enumeration
     {
-        /// <summary>
-        /// first constant will have the value 0, incremented by 1 for the next set of constants
-        /// </summary>
-        enum CSharp_concepts
+       
+        enum Student
         {
-            Basics,
-            Methods = 10,
-            ControlStmts,
-            OOPS = 20,
-            Delegates = 40,
-            Structures = -3,
-            Files,
-            Generics
+            Sam,
+            Demon = 1051,
+            Jack = 1052,
+            Wakas = 1053,
         }
         public static void Main()
         {
-            Console.WriteLine(CSharp_concepts.Basics);
-            int methods = (int)CSharp_concepts.Methods;
+            Console.WriteLine(Student.Sam);
+            int methods = (int)Student.Demon;
             Console.WriteLine(methods);
-            var del = (CSharp_concepts)40;
+            var del = (Student)1053;
             Console.WriteLine(del);
-            int structures = (int)CSharp_concepts.Structures;
-            Console.WriteLine(structures);
+            int id = (int)Student.Jack;
+            Console.WriteLine(id);
 
         }
     }
