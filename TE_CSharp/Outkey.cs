@@ -11,18 +11,22 @@ namespace TE_CSharp
         public static void Main()
         {
             int id;
-            string name, dept;
-            details(out id, out name, out dept);
+            string name, dept,comp;
+            details(out id, out name, out dept,out comp);
             Console.WriteLine($"Student ID= {id}");
             Console.WriteLine($"Student Name= {name}");
             Console.WriteLine($"Student Department= {dept}");
+            Console.WriteLine($"Company = {comp}");
+            
 
         }
-        public static void details(out int sid, out string sname, out string sdept)
+        public static void details(out int sid, out string sname, out string sdept,out string scomp)
         {
             sid = 15019;
             sname = "Shabana";
             sdept = ".NET CORE";
+            scomp = "TietoEvry";
+            
         }
 
     }
