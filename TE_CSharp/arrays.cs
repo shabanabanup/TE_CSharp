@@ -26,6 +26,7 @@ namespace TE_CSharp
                     for (int j = 0; j < col; j++)
                     {
                         Console.Write("Enter Matrix({0},{1}): ", i, j);
+
                         a[i, j] = Convert.ToInt32(Console.ReadLine());
                     }
                 }
@@ -35,7 +36,9 @@ namespace TE_CSharp
                     for (int j = 0; j < col; j++)
                     {
                         Console.Write("Enter Matrix({0},{1}): ", i, j);
+                         
                         b[i, j] = Convert.ToInt32(Console.ReadLine());
+
                     }
                 }
                 int[,] result = new int[row, col];
@@ -52,6 +55,7 @@ namespace TE_CSharp
 
                     }
                     Console.WriteLine("");
+                    
                 }
             }
         }

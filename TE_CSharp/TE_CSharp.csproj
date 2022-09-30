@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>TE_CSharp.Outkey</StartupObject>
+    <StartupObject>TE_CSharp.usde_age.TestUserDefinedException</StartupObject>
   </PropertyGroup>
 
 </Project>
