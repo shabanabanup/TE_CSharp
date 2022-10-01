@@ -26,7 +26,7 @@ namespace TE_CSharp
                 }
                 else
                 {
-                    Console.WriteLine("YES YOUR AGE IS ELIGIBLE FOE VALIDATION!!");
+                    Console.WriteLine("YES YOUR AGE IS ELIGIBLE FOR VALIDATION!!");
                 }
             }
             public static void Main(string[] args)
